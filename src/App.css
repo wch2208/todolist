@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+  font-size: 30px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.modiBtn {
+  background-color: white;
+  border: 0;
+  padding: 1px 3px 1px 3px;
+  margin-left: 3px;
+  border-radius: 4em;
+  border-color: none;
+  color: rgb(122, 122, 239);
+  font-size: 0.875rem;
+  height: 1.15rem;
+}
+.delBtn {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  padding: 1px 3px 1px 3px;
+  margin-left: 3px;
+  border-radius: 4em;
+  border-color: none;
+  color: rgb(252, 57, 57);
+  font-size: 0.875rem;
+  height: 1.15rem;
+}
+
+input {
+  /* margin: 3px 3px 3px 3px; */
+  font-size: 20px;
+  height: 32px;
+}
+.inputBox {
+  width: 500px;
+  border: inset;
+  border-bottom: 1px soild black;
+}
+
+input:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: rgb(242, 242, 242);
+}
+
+form {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  width: 90%;
+  justify-content: center;
+}
+
+label {
+  padding-right: 270px;
+  font-size: 17px;
+}
+.filter {
+  display: inline-block;
+  width: 20px;
+  height: 18px;
+}
+
+.modiOn {
+  display: inline;
+  width: 410px;
+  border: none;
+  font-size: 17px;
+  background-color: rgba(240, 240, 240, 0.486);
+}
+
+input:read-only {
+  background-color: #fff;
+}
+.hide {
+  display: none;
+}
